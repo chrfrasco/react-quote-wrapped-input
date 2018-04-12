@@ -1,0 +1,23 @@
+{
+  "name": "react-quote-wrapped-input",
+  "version": "0.1.0",
+  "description": "React Component that wraps the input value in quotation marks",
+  "main": "dist/index.js",
+  "repository": "https://github.com/chrfrasco/react-quote-wrapped-input",
+  "author": "Christian Scott <christian@christianfscott.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode development --output dist/index.js"
+  },
+  "dependencies": {
+    "react": "^16.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  }
+}
